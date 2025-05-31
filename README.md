@@ -13,14 +13,6 @@ Este é um projeto de site front-end desenvolvido com HTML5 e CSS3. O objetivo �
 - ✅ Navegação simples e intuitiva
 - ✅ Estilo limpo e agradável com foco na experiência do usuário
 
-## 📷 Capturas de Tela
-
-![banner do site](./exemplo-banner.jpg)  
-*Exemplo de banner com promoção de viagens*
-
-![cards](./exemplo-cards.jpg)  
-*Cards de destinos com botões de ação*
-
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
