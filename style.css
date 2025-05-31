@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-image: url("res/aviao.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3.75rem 1.25rem; 
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.625rem;
+  text-shadow: 2px 2px 4px #000;
+}
+
+header p {
+  max-width: 43.75rem; 
+  margin: auto;
+  font-size: 1.1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem; 
+  border-radius: 0.625rem; 
+}
+
+main {
+  padding: 1.875rem 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  border: none;
+  background-color: white;
+  padding: 1.875rem;
+  border-radius: 0.9375rem; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 31.25rem; 
+}
+
+div {
+  margin-bottom: 1.25rem; 
+}
+
+label {
+  color: #003366;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 0.5rem; 
+  font-size: 1em;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003366;
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1.25rem; 
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1em;
+    padding: 0.625rem;
+  }
+
+  main {
+    padding: 1.25rem 0.625rem;
+  }
+
+  fieldset {
+    padding: 1.25rem;
+  }
+
+  input,
+  button {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 2.5rem 1rem;
+  }
+
+  header h1 {
+    font-size: 1.6em;
+  }
+
+  header p {
+    font-size: 0.95em;
+  }
+
+  button {
+    width: 100%;
+  }
+}
